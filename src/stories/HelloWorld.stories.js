@@ -1,11 +1,11 @@
-import RemoteComponentContainer from "../components/RemoteComponentContainer";
+import HelloWorld from "../components/HelloWorld";
 
 export default {
-  title: "Components/RemoteComponentContainer",
-  component: RemoteComponentContainer,
+  title: "Components/HelloWorld",
+  component: HelloWorld,
 };
 
-const Template = (args) => <RemoteComponentContainer {...args} />;
+const Template = (args) => <HelloWorld {...args} />;
 
 export const firstname = Template.bind({});
 firstname.args = {
