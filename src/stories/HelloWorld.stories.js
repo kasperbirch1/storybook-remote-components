@@ -7,10 +7,7 @@ export default {
 
 const Template = (args) => <HelloWorld {...args} />;
 
-export const firstname = Template.bind({});
-firstname.args = {
-  name: "Kasper",
-};
+export const firstname = Template.bind({}, { name: "Kasper" });
 
 export const lastname = Template.bind({});
 lastname.args = {
