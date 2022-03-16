@@ -4,12 +4,13 @@ import { RemoteComponent } from "../RemoteComponent";
 const url =
   "https://raw.githubusercontent.com/Paciolan/remote-component/master/examples/remote-components/HelloWorld.js";
 
-const RemoteComponentContainer = ({ name }) => (
-  <RemoteComponent url={url} name={name} />
-);
-
 const HelloWorld = ({ name = "label" }) => {
-  return <RemoteComponentContainer name={name} />;
+  return (
+    <RemoteComponent
+      url={url} // RemoteComponent url
+      name={name}
+    />
+  );
 };
 
 HelloWorld.propTypes = {
