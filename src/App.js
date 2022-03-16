@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       App:
       <div style={{ border: "1px solid black", padding: "1rem" }}>
-        <HelloWorld />
+        <HelloWorld name="From app.js" />
       </div>
     </div>
   );
