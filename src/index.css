@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.sb-show-main.sb-main-padded {
+  padding: 0;
+}
+
+.sb-show-main.sb-main-padded > #root {
+  height: 100%;
+}
