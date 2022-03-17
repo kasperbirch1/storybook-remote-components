@@ -1,4 +1,22 @@
 import "../src/index.css";
+
+const customViewports = {
+  horizontal: {
+    name: "9/16 (horizontal)",
+    styles: {
+      width: "1280px",
+      height: "720px",
+    },
+  },
+  vertical: {
+    name: "16/9 (vertical)",
+    styles: {
+      width: "720px",
+      height: "1280px",
+    },
+  },
+};
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -7,4 +25,5 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  viewport: { viewports: customViewports },
 };
