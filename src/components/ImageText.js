@@ -44,15 +44,13 @@ const ImageText = ({
   };
 
   return (
-    <>
-      <RemoteComponent
-        url={url}
-        run={new Date().toISOString()}
-        slide={slideTemplate}
-        content={slideTemplate.content}
-        slideDone={() => {}}
-      />
-    </>
+    <RemoteComponent
+      url={url}
+      run={new Date().toISOString()}
+      slide={slideTemplate}
+      content={slideTemplate.content}
+      slideDone={() => {}}
+    />
   );
 };
 

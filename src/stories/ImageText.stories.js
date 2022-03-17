@@ -5,7 +5,7 @@ export default {
   component: ImageText,
   argTypes: {
     boxAlign: {
-      options: ["top", "button"],
+      options: ["top (default)", "bottom", "left", "right"],
       control: { type: "select" }, // Automatically inferred when 'options' is defined
     },
   },
