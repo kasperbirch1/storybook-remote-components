@@ -18,7 +18,7 @@ example1.args = {
   title: "kasper",
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...",
   image:
-    "https://images.pexels.com/photos/10164553/pexels-photo-10164553.jpeg?cs=srgb&dl=pexels-bruno-pires-10164553.jpg&fm=jpg",
+    "https://images.pexels.com/photos/9365604/pexels-photo-9365604.jpeg?cs=srgb&dl=pexels-matteo-badini-9365604.jpg&fm=jpg",
   // styling: {
   // boxAlign: "top",
   boxMargin: true,
